@@ -1,1 +1,4 @@
 *.pbxproj merge=union
+
+# Original .gitattributes contents
+*.pbxproj merge=union
