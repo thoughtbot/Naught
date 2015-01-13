@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EAB003E61A64939F00A83BDC /* Naught.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB003E51A64939F00A83BDC /* Naught.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAB003EC1A64939F00A83BDC /* Naught-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB003E01A64939F00A83BDC /* Naught-iOS.framework */; };
+		EAB003EC1A64939F00A83BDC /* Naught.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB003E01A64939F00A83BDC /* Naught.framework */; };
 		EAB003F31A64939F00A83BDC /* NaughtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB003F21A64939F00A83BDC /* NaughtTests.swift */; };
-		EAB0042A1A64959900A83BDC /* Naught-Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0041F1A64959900A83BDC /* Naught-Mac.framework */; };
+		EAB0042A1A64959900A83BDC /* Naught.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0041F1A64959900A83BDC /* Naught.framework */; };
+		EAB0043B1A64997000A83BDC /* naught.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043A1A64997000A83BDC /* naught.swift */; };
+		EAB004401A649AB200A83BDC /* try.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* try.swift */; };
+		EAB004411A649ADB00A83BDC /* NaughtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB003F21A64939F00A83BDC /* NaughtTests.swift */; };
+		EAB004421A649AE000A83BDC /* naught.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043A1A64997000A83BDC /* naught.swift */; };
+		EAB004431A649AE300A83BDC /* try.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* try.swift */; };
+		EAB004481A649B6700A83BDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004461A649B4400A83BDC /* User.swift */; };
+		EAB004491A649B6800A83BDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004461A649B4400A83BDC /* User.swift */; };
+		EAB0044A1A649B6D00A83BDC /* NaughtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004441A649B1C00A83BDC /* NaughtModel.swift */; };
+		EAB0044B1A649B6D00A83BDC /* NaughtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004441A649B1C00A83BDC /* NaughtModel.swift */; };
+		EAB004541A649DCE00A83BDC /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = EAB004521A649DBD00A83BDC /* types.json */; };
+		EAB004551A649DCE00A83BDC /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = EAB004521A649DBD00A83BDC /* types.json */; };
+		EAB004561A649DD200A83BDC /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004501A649D9F00A83BDC /* JSONFileReader.swift */; };
+		EAB004571A649DD300A83BDC /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004501A649D9F00A83BDC /* JSONFileReader.swift */; };
+		EAB004681A64A00900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB004671A64A00900A83BDC /* Argo.framework */; };
+		EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0046B1A64A02900A83BDC /* Argo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAB003E01A64939F00A83BDC /* Naught-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Naught-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB003E01A64939F00A83BDC /* Naught.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Naught.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB003E41A64939F00A83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAB003E51A64939F00A83BDC /* Naught.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Naught.h; sourceTree = "<group>"; };
-		EAB003EB1A64939F00A83BDC /* NaughtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NaughtTests.xctest; path = "Naught-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB003EB1A64939F00A83BDC /* Naught-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Naught-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB003F11A64939F00A83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAB003F21A64939F00A83BDC /* NaughtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaughtTests.swift; sourceTree = "<group>"; };
-		EAB0041F1A64959900A83BDC /* Naught-Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Naught-Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB0041F1A64959900A83BDC /* Naught.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Naught.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB004291A64959900A83BDC /* Naught-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Naught-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB0043A1A64997000A83BDC /* naught.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naught.swift; sourceTree = "<group>"; };
+		EAB0043F1A649AB200A83BDC /* try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = try.swift; sourceTree = "<group>"; };
+		EAB004441A649B1C00A83BDC /* NaughtModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaughtModel.swift; sourceTree = "<group>"; };
+		EAB004461A649B4400A83BDC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAB004501A649D9F00A83BDC /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
+		EAB004521A649DBD00A83BDC /* types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = types.json; sourceTree = "<group>"; };
+		EAB004671A64A00900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = "Carthage/Checkouts/Argo/build/Debug-iphoneos/Argo.framework"; sourceTree = "<group>"; };
+		EAB0046B1A64A02900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Checkouts/Argo/build/Debug/Argo.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004681A64A00900A83BDC /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB003EC1A64939F00A83BDC /* Naught-iOS.framework in Frameworks */,
+				EAB003EC1A64939F00A83BDC /* Naught.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB0042A1A64959900A83BDC /* Naught-Mac.framework in Frameworks */,
+				EAB0042A1A64959900A83BDC /* Naught.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +105,7 @@
 			children = (
 				EAB003E21A64939F00A83BDC /* Source */,
 				EAB003EF1A64939F00A83BDC /* NaughtTests */,
+				EAB0046A1A64A01C00A83BDC /* Frameworks */,
 				EAB003E11A64939F00A83BDC /* Products */,
 			);
 			indentWidth = 2;
@@ -90,9 +116,9 @@
 		EAB003E11A64939F00A83BDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAB003E01A64939F00A83BDC /* Naught-iOS.framework */,
-				EAB003EB1A64939F00A83BDC /* NaughtTests.xctest */,
-				EAB0041F1A64959900A83BDC /* Naught-Mac.framework */,
+				EAB003E01A64939F00A83BDC /* Naught.framework */,
+				EAB003EB1A64939F00A83BDC /* Naught-iOSTests.xctest */,
+				EAB0041F1A64959900A83BDC /* Naught.framework */,
 				EAB004291A64959900A83BDC /* Naught-MacTests.xctest */,
 			);
 			name = Products;
@@ -101,6 +127,8 @@
 		EAB003E21A64939F00A83BDC /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EAB0043A1A64997000A83BDC /* naught.swift */,
+				EAB0043F1A649AB200A83BDC /* try.swift */,
 				EAB003E31A64939F00A83BDC /* Supporting Files */,
 			);
 			path = Source;
@@ -119,6 +147,10 @@
 			isa = PBXGroup;
 			children = (
 				EAB003F21A64939F00A83BDC /* NaughtTests.swift */,
+				EAB004441A649B1C00A83BDC /* NaughtModel.swift */,
+				EAB004461A649B4400A83BDC /* User.swift */,
+				EAB004501A649D9F00A83BDC /* JSONFileReader.swift */,
+				EAB004521A649DBD00A83BDC /* types.json */,
 				EAB003F01A64939F00A83BDC /* Supporting Files */,
 			);
 			path = NaughtTests;
@@ -130,6 +162,15 @@
 				EAB003F11A64939F00A83BDC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB0046A1A64A01C00A83BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB0046B1A64A02900A83BDC /* Argo.framework */,
+				EAB004671A64A00900A83BDC /* Argo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +210,7 @@
 			);
 			name = "Naught-iOS";
 			productName = Naught;
-			productReference = EAB003E01A64939F00A83BDC /* Naught-iOS.framework */;
+			productReference = EAB003E01A64939F00A83BDC /* Naught.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAB003EA1A64939F00A83BDC /* Naught-iOSTests */ = {
@@ -187,7 +228,7 @@
 			);
 			name = "Naught-iOSTests";
 			productName = NaughtTests;
-			productReference = EAB003EB1A64939F00A83BDC /* NaughtTests.xctest */;
+			productReference = EAB003EB1A64939F00A83BDC /* Naught-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EAB0041E1A64959900A83BDC /* Naught-Mac */ = {
@@ -206,7 +247,7 @@
 			);
 			name = "Naught-Mac";
 			productName = "Naught-Mac";
-			productReference = EAB0041F1A64959900A83BDC /* Naught-Mac.framework */;
+			productReference = EAB0041F1A64959900A83BDC /* Naught.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAB004281A64959900A83BDC /* Naught-MacTests */ = {
@@ -282,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004541A649DCE00A83BDC /* types.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004551A649DCE00A83BDC /* types.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB0043B1A64997000A83BDC /* naught.swift in Sources */,
+				EAB004401A649AB200A83BDC /* try.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +389,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004561A649DD200A83BDC /* JSONFileReader.swift in Sources */,
+				EAB004481A649B6700A83BDC /* User.swift in Sources */,
+				EAB0044B1A649B6D00A83BDC /* NaughtModel.swift in Sources */,
 				EAB003F31A64939F00A83BDC /* NaughtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +400,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004421A649AE000A83BDC /* naught.swift in Sources */,
+				EAB004431A649AE300A83BDC /* try.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB004571A649DD300A83BDC /* JSONFileReader.swift in Sources */,
+				EAB004491A649B6800A83BDC /* User.swift in Sources */,
+				EAB0044A1A649B6D00A83BDC /* NaughtModel.swift in Sources */,
+				EAB004411A649ADB00A83BDC /* NaughtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +557,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Naught/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Naught;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -521,10 +575,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = Naught/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Naught;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -535,6 +589,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -552,6 +607,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -572,11 +628,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Naught-Mac/Info.plist";
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Naught;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -593,11 +649,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "Naught-Mac/Info.plist";
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Naught;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -610,12 +666,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Naught-MacTests/Info.plist";
+				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -631,8 +688,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "Naught-MacTests/Info.plist";
+				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";

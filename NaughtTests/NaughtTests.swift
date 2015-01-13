@@ -1,36 +1,31 @@
-//
-//  NaughtTests.swift
-//  NaughtTests
-//
-//  Created by Tony DiPasquale on 1/12/15.
-//  Copyright (c) 2015 thoughtbot. All rights reserved.
-//
-
-import UIKit
 import XCTest
+import Argo
+import Naught
 
-class NaughtTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class NautTests: XCTestCase {
+  func testNaut() {
+    let json: AnyObject? = JSONFileReader.JSON(fromFile: "types")
+    let value = json.map(JSONValue.parse)
+
+    if let v = value {
+      let model = NautModel.decode(v)
+
+      XCTAssert(model != nil)
+      XCTAssert(model?.int == 5)
+      XCTAssert(model?.string == "Cooler User")
+      XCTAssert(model?.double == 3.4)
+      XCTAssert(model?.bool == false)
+      XCTAssert(model?.intOpt != nil)
+      XCTAssert(model?.intOpt! == 4)
+      XCTAssert(model?.stringArray.count == 2)
+      XCTAssert(model?.stringArrayOpt == nil)
+      XCTAssert(model?.eStringArray.count == 2)
+      XCTAssert(model?.eStringArrayOpt != nil)
+      XCTAssert(model?.eStringArrayOpt?.count == 0)
+      XCTAssert(model?.userOpt != nil)
+      XCTAssert(model?.userOpt?.id == 6)
+    } else {
+      XCTFail("Couldn't parse json.")
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+  }
 }
