@@ -46,7 +46,7 @@ struct User {
 }
 
 extension User: JSONDecodable {
-  static func create(id: Int, name: String, email: String?) -> User {
+  static func create(id: Int)(name: String)(email: String?) -> User {
     return User(id: id, name: name, email: email)
   }
 
