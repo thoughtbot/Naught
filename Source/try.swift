@@ -1,4 +1,4 @@
-import Argo
+import Runes
 
 public func try<A, Z>(fx: A -> Z, a: A?) -> Z? {
   return fx <^> a

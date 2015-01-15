@@ -26,6 +26,7 @@
 		EAB004571A649DD300A83BDC /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004501A649D9F00A83BDC /* JSONFileReader.swift */; };
 		EAB004681A64A00900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB004671A64A00900A83BDC /* Argo.framework */; };
 		EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0046B1A64A02900A83BDC /* Argo.framework */; };
+		EAD02F4F1A68889600F27F96 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD02F4E1A68889600F27F96 /* Runes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		EAB004521A649DBD00A83BDC /* types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = types.json; sourceTree = "<group>"; };
 		EAB004671A64A00900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = "Carthage/Checkouts/Argo/build/Debug-iphoneos/Argo.framework"; sourceTree = "<group>"; };
 		EAB0046B1A64A02900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Checkouts/Argo/build/Debug/Argo.framework; sourceTree = "<group>"; };
+		EAD02F4E1A68889600F27F96 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Checkouts/Runes/build/Debug/Runes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD02F4F1A68889600F27F96 /* Runes.framework in Frameworks */,
 				EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +170,7 @@
 		EAB0046A1A64A01C00A83BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAD02F4E1A68889600F27F96 /* Runes.framework */,
 				EAB0046B1A64A02900A83BDC /* Argo.framework */,
 				EAB004671A64A00900A83BDC /* Argo.framework */,
 			);
