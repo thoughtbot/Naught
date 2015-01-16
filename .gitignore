@@ -31,4 +31,4 @@ Pods
 .idea/
 *.iml
 
-Carthage
+Carthage/Build
