@@ -24,9 +24,18 @@
 		EAB004551A649DCE00A83BDC /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = EAB004521A649DBD00A83BDC /* types.json */; };
 		EAB004561A649DD200A83BDC /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004501A649D9F00A83BDC /* JSONFileReader.swift */; };
 		EAB004571A649DD300A83BDC /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004501A649D9F00A83BDC /* JSONFileReader.swift */; };
-		EAB004681A64A00900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB004671A64A00900A83BDC /* Argo.framework */; };
-		EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0046B1A64A02900A83BDC /* Argo.framework */; };
-		EAD02F4F1A68889600F27F96 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD02F4E1A68889600F27F96 /* Runes.framework */; };
+		F8AB275F1A8D3A4600AD498B /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB275A1A8D3A3E00AD498B /* Argo.framework */; };
+		F8AB27601A8D3A4600AD498B /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB275B1A8D3A3E00AD498B /* Runes.framework */; };
+		F8AB27611A8D3A4D00AD498B /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB275D1A8D3A3E00AD498B /* Argo.framework */; };
+		F8AB27621A8D3A4D00AD498B /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB275E1A8D3A3E00AD498B /* Runes.framework */; };
+		F8AB27641A8D3A5D00AD498B /* Argo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275D1A8D3A3E00AD498B /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB27651A8D3A5D00AD498B /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275E1A8D3A3E00AD498B /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB27671A8D3A6800AD498B /* Argo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275A1A8D3A3E00AD498B /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB27681A8D3A6800AD498B /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275B1A8D3A3E00AD498B /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB276A1A8D3ABB00AD498B /* Argo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275A1A8D3A3E00AD498B /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB276B1A8D3ABB00AD498B /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275B1A8D3A3E00AD498B /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB276D1A8D3AC400AD498B /* Argo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275D1A8D3A3E00AD498B /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8AB276E1A8D3AC400AD498B /* Runes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8AB275E1A8D3A3E00AD498B /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,53 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8AB27631A8D3A5700AD498B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8AB27641A8D3A5D00AD498B /* Argo.framework in CopyFiles */,
+				F8AB27651A8D3A5D00AD498B /* Runes.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB27661A8D3A6200AD498B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8AB27671A8D3A6800AD498B /* Argo.framework in CopyFiles */,
+				F8AB27681A8D3A6800AD498B /* Runes.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB27691A8D3AB600AD498B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8AB276A1A8D3ABB00AD498B /* Argo.framework in CopyFiles */,
+				F8AB276B1A8D3ABB00AD498B /* Runes.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB276C1A8D3ABF00AD498B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8AB276D1A8D3AC400AD498B /* Argo.framework in CopyFiles */,
+				F8AB276E1A8D3AC400AD498B /* Runes.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EAB003E01A64939F00A83BDC /* Naught.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Naught.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB003E41A64939F00A83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,9 +117,10 @@
 		EAB004461A649B4400A83BDC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAB004501A649D9F00A83BDC /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
 		EAB004521A649DBD00A83BDC /* types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = types.json; sourceTree = "<group>"; };
-		EAB004671A64A00900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = "Carthage/Checkouts/Argo/build/Debug-iphoneos/Argo.framework"; sourceTree = "<group>"; };
-		EAB0046B1A64A02900A83BDC /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Checkouts/Argo/build/Debug/Argo.framework; sourceTree = "<group>"; };
-		EAD02F4E1A68889600F27F96 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Checkouts/Runes/build/Debug/Runes.framework; sourceTree = "<group>"; };
+		F8AB275A1A8D3A3E00AD498B /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = "<group>"; };
+		F8AB275B1A8D3A3E00AD498B /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Runes.framework; sourceTree = "<group>"; };
+		F8AB275D1A8D3A3E00AD498B /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = "<group>"; };
+		F8AB275E1A8D3A3E00AD498B /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Runes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB004681A64A00900A83BDC /* Argo.framework in Frameworks */,
+				F8AB275F1A8D3A4600AD498B /* Argo.framework in Frameworks */,
+				F8AB27601A8D3A4600AD498B /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD02F4F1A68889600F27F96 /* Runes.framework in Frameworks */,
-				EAB0046C1A64A02900A83BDC /* Argo.framework in Frameworks */,
+				F8AB27611A8D3A4D00AD498B /* Argo.framework in Frameworks */,
+				F8AB27621A8D3A4D00AD498B /* Runes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,11 +228,30 @@
 		EAB0046A1A64A01C00A83BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EAD02F4E1A68889600F27F96 /* Runes.framework */,
-				EAB0046B1A64A02900A83BDC /* Argo.framework */,
-				EAB004671A64A00900A83BDC /* Argo.framework */,
+				F8AB27591A8D3A3E00AD498B /* iOS */,
+				F8AB275C1A8D3A3E00AD498B /* Mac */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8AB27591A8D3A3E00AD498B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8AB275A1A8D3A3E00AD498B /* Argo.framework */,
+				F8AB275B1A8D3A3E00AD498B /* Runes.framework */,
+			);
+			name = iOS;
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
+		F8AB275C1A8D3A3E00AD498B /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F8AB275D1A8D3A3E00AD498B /* Argo.framework */,
+				F8AB275E1A8D3A3E00AD498B /* Runes.framework */,
+			);
+			name = Mac;
+			path = Carthage/Build/Mac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +284,7 @@
 				EAB003DD1A64939F00A83BDC /* Headers */,
 				EAB003DE1A64939F00A83BDC /* Resources */,
 				1C8A6C2E72DB7DBA3E4276F9 /* Warn for TODO and FIXME comments */,
+				F8AB27661A8D3A6200AD498B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -224,6 +302,7 @@
 				EAB003E71A64939F00A83BDC /* Sources */,
 				EAB003E81A64939F00A83BDC /* Frameworks */,
 				EAB003E91A64939F00A83BDC /* Resources */,
+				F8AB27691A8D3AB600AD498B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -244,6 +323,7 @@
 				EAB0041C1A64959900A83BDC /* Headers */,
 				EAB0041D1A64959900A83BDC /* Resources */,
 				C35A10D4373599C760AD0230 /* Warn for TODO and FIXME comments */,
+				F8AB27631A8D3A5700AD498B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -261,6 +341,7 @@
 				EAB004251A64959900A83BDC /* Sources */,
 				EAB004261A64959900A83BDC /* Frameworks */,
 				EAB004271A64959900A83BDC /* Resources */,
+				F8AB276C1A8D3ABF00AD498B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -486,7 +567,8 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -542,7 +624,8 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -561,6 +644,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -578,6 +665,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -627,6 +718,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -651,6 +746,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Source/Info.plist;
