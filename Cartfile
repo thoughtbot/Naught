@@ -1,1 +1,1 @@
-github "thoughtbot/Argo"
+github "thoughtbot/Argo" ~> 0.3.0
