@@ -14,13 +14,13 @@ struct NautModel {
   let userOpt: User?
 }
 
-extension NautModel: JSONDecodable {
+extension NautModel: Decodable {
   static func create(int: Int)(string: String)(double: Double)(bool: Bool)(intOpt: Int?)(stringArray: [String])(stringArrayOpt: [String]?)(eStringArray: [String])(eStringArrayOpt: [String]?)(userOpt: User?) -> NautModel {
     return NautModel(int: int, string: string, double: double, bool: bool, intOpt: intOpt, stringArray: stringArray, stringArrayOpt: stringArrayOpt, eStringArray: eStringArray, eStringArrayOpt: eStringArrayOpt, userOpt: userOpt)
   }
 
-  static func decode(j: JSONValue) -> NautModel? {
-    return try(NautModel.create
+  static func decode(j: JSON) -> Decoded<NautModel> {
+    return attempt(NautModel.create
       , getValue (j, "int")
       , getValue (j, ["user_opt", "name"])
       , getValue (j, "double")

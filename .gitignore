@@ -32,3 +32,4 @@ Pods
 *.iml
 
 Carthage/Build
+*.xcworkspace/xcshareddata

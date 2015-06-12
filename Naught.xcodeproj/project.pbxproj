@@ -12,10 +12,10 @@
 		EAB003F31A64939F00A83BDC /* NaughtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB003F21A64939F00A83BDC /* NaughtTests.swift */; };
 		EAB0042A1A64959900A83BDC /* Naught.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB0041F1A64959900A83BDC /* Naught.framework */; };
 		EAB0043B1A64997000A83BDC /* naught.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043A1A64997000A83BDC /* naught.swift */; };
-		EAB004401A649AB200A83BDC /* try.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* try.swift */; };
+		EAB004401A649AB200A83BDC /* attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* attempt.swift */; };
 		EAB004411A649ADB00A83BDC /* NaughtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB003F21A64939F00A83BDC /* NaughtTests.swift */; };
 		EAB004421A649AE000A83BDC /* naught.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043A1A64997000A83BDC /* naught.swift */; };
-		EAB004431A649AE300A83BDC /* try.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* try.swift */; };
+		EAB004431A649AE300A83BDC /* attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0043F1A649AB200A83BDC /* attempt.swift */; };
 		EAB004481A649B6700A83BDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004461A649B4400A83BDC /* User.swift */; };
 		EAB004491A649B6800A83BDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004461A649B4400A83BDC /* User.swift */; };
 		EAB0044A1A649B6D00A83BDC /* NaughtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB004441A649B1C00A83BDC /* NaughtModel.swift */; };
@@ -56,7 +56,7 @@
 		EAB0041F1A64959900A83BDC /* Naught.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Naught.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB004291A64959900A83BDC /* Naught-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Naught-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB0043A1A64997000A83BDC /* naught.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = naught.swift; sourceTree = "<group>"; };
-		EAB0043F1A649AB200A83BDC /* try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = try.swift; sourceTree = "<group>"; };
+		EAB0043F1A649AB200A83BDC /* attempt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = attempt.swift; sourceTree = "<group>"; };
 		EAB004441A649B1C00A83BDC /* NaughtModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaughtModel.swift; sourceTree = "<group>"; };
 		EAB004461A649B4400A83BDC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAB004501A649D9F00A83BDC /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				EAB0043A1A64997000A83BDC /* naught.swift */,
-				EAB0043F1A649AB200A83BDC /* try.swift */,
+				EAB0043F1A649AB200A83BDC /* attempt.swift */,
 				EAB003E31A64939F00A83BDC /* Supporting Files */,
 			);
 			path = Source;
@@ -278,7 +278,8 @@
 		EAB003D71A64939F00A83BDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = thoughtbot;
 				TargetAttributes = {
 					EAB003DF1A64939F00A83BDC = {
@@ -385,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB0043B1A64997000A83BDC /* naught.swift in Sources */,
-				EAB004401A649AB200A83BDC /* try.swift in Sources */,
+				EAB004401A649AB200A83BDC /* attempt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB004421A649AE000A83BDC /* naught.swift in Sources */,
-				EAB004431A649AE300A83BDC /* try.swift in Sources */,
+				EAB004431A649AE300A83BDC /* attempt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +462,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -564,6 +566,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.naught;
 				PRODUCT_NAME = Naught;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -582,6 +585,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.naught;
 				PRODUCT_NAME = Naught;
 				SKIP_INSTALL = YES;
 			};
@@ -591,7 +595,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
@@ -601,6 +604,7 @@
 				);
 				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -609,12 +613,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -636,6 +640,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.naught;
 				PRODUCT_NAME = Naught;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -657,6 +662,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.naught;
 				PRODUCT_NAME = Naught;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -679,6 +685,7 @@
 				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -697,6 +704,7 @@
 				INFOPLIST_FILE = NaughtTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
